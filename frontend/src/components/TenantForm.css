@@ -1,0 +1,130 @@
+.tenant-form-container {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+}
+
+.tenant-form-container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.tenant-form-container .form-section {
+  margin-bottom: 1.5rem;
+}
+
+.tenant-form-container .form-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.tenant-form-container .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.75rem;
+}
+
+.tenant-form-container .form-col {
+  flex: 1;
+  padding: 0 0.75rem;
+  min-width: 250px;
+}
+
+.tenant-form-container .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.tenant-form-container .form-label {
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.tenant-form-container .form-control,
+.tenant-form-container .form-select {
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius);
+  padding: 0.625rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--gray-800);
+  background-color: white;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.tenant-form-container .form-control:focus,
+.tenant-form-container .form-select:focus {
+  border-color: var(--primary-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(67, 97, 238, 0.15);
+}
+
+.tenant-form-container .form-control::placeholder {
+  color: var(--gray-400);
+  opacity: 1;
+}
+
+.tenant-form-container .form-control:disabled {
+  background-color: var(--gray-100);
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+.tenant-form-container .address-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tenant-form-container .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.tenant-form-container .btn {
+  border-radius: var(--radius);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tenant-form-container .emergency-contact {
+  background-color: var(--gray-50);
+  padding: 1rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.25rem;
+}
+
+.tenant-form-container .emergency-contact-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tenant-form-container .emergency-contact-title i {
+  color: var(--warning-color);
+}
